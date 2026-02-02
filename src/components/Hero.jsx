@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode, SiCodechef } from "react-icons/si";
+import vpLogo from "/VP-nobg.svg";
 
 const Hero = () => (
     <section
@@ -11,7 +12,7 @@ const Hero = () => (
             {/* VP Logo */}
             <div className="flex justify-center mb-8">
                 <img
-                    src="/public/VP-nobg.svg"
+                    src={vpLogo}
                     alt="VP Logo"
                     className="h-24 w-24 md:h-32 md:w-32 animate-pulse hover:animate-none transition-all"
                 />
